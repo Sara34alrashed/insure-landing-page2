@@ -1,0 +1,347 @@
+:root{
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    }
+    @font-face {
+        font-family: 'Italic';
+        src: url(font/DM_Serif_Display/DMSerifDisplay-Italic.ttf);
+    }
+    @font-face {
+        font-family: 'Regular';
+        src: url(font/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'Italic-VariableFont' ;
+        src: url(font/Karla/Karla-Italic-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'VariableFont';
+        src: url(font/Karla/Karla-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'Bold';
+        src: url(font/Karla/static/Karla-Bold.ttf);
+    }
+    @font-face {
+        font-family: 'BoldItalic';
+        src: url(font/Karla/static/Karla-BoldItalic.ttf);
+    }
+    @font-face {
+        font-family:'ExtraBold' ;
+        src: url(font/Karla/static/Karla-ExtraBold.ttf);
+    }
+    @font-face{
+        font-family:'Karla-Regular' ;
+        src: url(font/Karla/static/Karla-Regular.ttf);
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        ff
+        
+    }
+    body{
+     width: 100%;
+        min-height: 100vh;
+    
+    }
+    
+    body nav .nav-list{
+      display: flex;
+        align-items: center;
+        justify-content: space-between;
+    margin: 25px;
+    
+    }
+    body nav .nav-list :nth-child(3){
+        display: none;
+    }
+    
+    body nav .list-inf{
+        background-color: var(--DarkViolet);
+
+    text-align: center;
+
+    position: relative;
+    bottom: 80px;
+right: 15px;
+    z-index: 10;
+    
+    }
+    body nav .list-inf p{
+        padding: 10px;
+        color: white;
+    }
+    body nav .list-inf button{
+    margin-top: 20px;
+        padding: 15px;
+        width: 100%;
+        background-color: transparent;
+        border-color: white;
+        color: white;
+    }
+    body nav .list-inf img{
+        position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    }
+    body header{
+        width: 100%;
+    }
+    
+    body header .top  :first-child{
+        width: 100%;
+        z-index: 3;
+    
+    
+    }
+    
+    body header .top :nth-child(2){
+        display: none;
+    }
+    
+    body header .top .back-img {
+        background-color: var(--DarkViolet);
+        height: 430px;
+      padding: 20px;
+     position: relative;
+     top: -4px;
+    
+    }
+    body header .top .back-img h2{
+    padding: 14px;
+    margin-top: 10px;
+    color: var(--VeryLightGray);
+    text-align: center;
+    font-size: 39px;
+    
+    }
+    
+    
+    body header .top .back-img p{
+        padding: 20px;
+        text-align: center;
+        color: var(--GrayishBlue);
+    }
+    
+    
+    body header .top .back-img button{
+    margin: 15px 100px;
+    width: 40%;
+    padding: 10px ;
+    background-color: transparent;
+    border-color: white;
+    color: var(--GrayishBlue);
+    text-decoration: none;
+    border-width: 2px;
+    z-index: 5;
+    }
+    
+    
+    body header .top .back-img :first-child{
+        width: 38%;
+        position: absolute;
+        top: 0;
+    left: 0;
+    }
+    body header .top .back-img :nth-child(2){
+    display: none;
+    
+    }
+    body header .top .back-img :nth-child(6){
+    position: absolute;
+    width: 120px;
+    right: 0;
+    top: 278px;
+    
+    }
+    body header .top .back-img :nth-child(7){
+    display: none;
+    }
+    body section {
+        width: 100%;
+    }
+    body section .different hr{
+    margin: 120px 90px 20px 90px;
+    width: 50%;
+    border-top: 1px solid gray;
+    
+    }
+    
+    body section .different h2{
+        margin: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+    body section .inf{
+     padding: 40px;
+     
+    }
+    body section .inf img{
+        width: 75px;
+        margin: 0 95px;
+        
+    }
+    
+    body section .inf h3{
+        padding-top: 30px ;
+        text-align: center;
+        font-size: 30px;
+    }
+    body section .inf  p {
+        padding: 20px 0;
+      color: var(--DarkGrayishViolet);
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    body section .find-out {
+        width: 84%;
+    height: 320px;
+    
+    background-color: var(--DarkViolet);
+        margin: auto;
+        padding: 20px;
+        position: relative;
+    }
+    
+    body section .find-out :nth-child(3){
+        position: absolute;
+        top: 0;
+        right: 0;
+    
+    }
+    body section .find-out :nth-child(4){
+        display: none;
+    }
+    body section .find-out h2{
+        padding: 30px 0;
+        text-align: center;
+        font-size: 40px;
+        color: var(--VeryLightGray);
+    }
+    body section .find-out button{
+        width: 60%;
+    padding: 10px;
+    margin: 0 50px;
+    background-color: transparent;
+    border-color: white;
+    
+    }
+    body section .find-out button a{
+        color: var(--VeryLightGray);
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: 'blod';
+    }
+    
+    
+    
+    body main .main-social .pat-img{
+    width: 250px;
+    height: 200px;
+    }
+    
+    
+    body main .main-social {
+        width: 100%;
+        position: relative;
+        height: 400px;
+    }
+    body main .main-social .pat-img{
+        position: absolute;
+        top: 110px;
+       width: 300px;
+    }
+      
+    body main .main-social .logo-soc .logo img {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    }
+    
+    body main .main-social .logo-soc .social{
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       position: absolute;
+       top: 250px;
+    left: 120px;
+       }
+       body main .main-social .logo-soc .social img{
+           margin: 4px;
+       }
+       body main .main-social hr{
+       
+           position: absolute;
+       top: 350px;
+       left: 55px;
+       width: 70%;
+       
+       }
+    body main .com-infor{
+        text-align: center;
+    }
+    body main .com-infor  h3 {
+       
+        color: var(--DarkGrayishViolet);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'blod';
+    margin: 30px;
+    }
+    body main .com-infor p{
+        
+        margin: 10px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: Arial;
+        font-weight: 800;
+        letter-spacing: 1px;
+    color: var(--VeryDarkViolet);
+    
+    }
+    
+    @media(min-width:1000px){
+        body nav .nav-list :nth-child(2), body nav .nav-list :nth-child(3){
+            display: none;
+        }
+        body nav{
+            height: 60px;
+    
+        }
+    
+        body nav .list-inf{
+    background-color: transparent;
+    display: flex;
+    justify-content: end ;
+    align-items: end ;
+    
+    
+        }
+        body nav .list-inf p{
+            color: black;
+            margin: 0 20px;
+    
+        }
+        body nav .list-inf button {
+    width: 13%;
+    color: black;
+    border-color: black ;
+    font-family: 'blod'; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    }
+    
+        }
